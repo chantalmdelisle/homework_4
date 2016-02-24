@@ -1,0 +1,33 @@
+body {
+	font-family: arial, sans-serif;
+	line-height: 2;
+	margin: 40px;
+}
+code {
+	border: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	padding: 2px;
+}
+div {
+	border: solid;
+	border-width: 2px;
+	margin: 5px;
+	padding: 7px;
+}
+#notification, code {
+	background-color: #eadede;
+	border-color: #c9bfbf;
+}
+.message {
+	background-color: #f9e7cd;
+	border-color: #dbcab2;
+}
+.error {
+	background-color: #f2cece;
+	border-color: #c79898;
+}
+.success{
+	background-color: #98c7a2;
+	border-color: #819f88;
+}

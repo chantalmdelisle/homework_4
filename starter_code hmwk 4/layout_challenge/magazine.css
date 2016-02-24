@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	padding: 0;
+}
+header{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	color: white;
+	height: 200px;
+	width: 25%;
+	float: left;
+}
+nav{
+	width: 70%;
+	float: right;
+}
+.B1, .B2, .B3, .B4, .B5{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	color: white;
+	height: 50px;
+	width: 15%;
+	float: left;
+}
+.B1, .B2, .B3, .B4{
+	margin-right: 20px;
+}
+aside {
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	color: white;
+	height: 600px;
+	width: 10%;
+	float: left;
+	clear: right;
+}
+.top, .middle1, .middle2 {
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	color: white;
+	height: 200px;
+}
+.top{
+	clear: right;
+}
+.middle{
+	width: 75%;
+}
+.middle1{
+	width: 66%;
+	float: left;
+}
+.middle2{
+	width: 33%;
+	float: left;
+}
+section{
+	clear: both;
+}
+.A, .B, .C, .D{
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	color: white;
+	height: 200px;
+	width: 31.2%;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.A, .B, .C{
+	margin-right: 40px;
+}
+footer{	
+	border: 2px solid darkgray;
+	background-color: lightgray;
+	height: 200px;
+	color: white;
+}

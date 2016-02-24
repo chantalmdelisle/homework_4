@@ -1,0 +1,36 @@
+header {
+	background-color: #ff8787;
+	outline: 7px solid red;
+	margin: 7px;
+}
+
+#main {
+	width: 61%;
+	background-color: #fffba9;
+	outline: 7px solid yellow;
+	float: left;
+	margin: 7px;
+
+}
+
+aside {
+	width: 37%;
+	background-color: #8ed89e;
+	outline: 7px solid green;
+	float: right;
+	margin: 7px;
+
+}
+
+footer {
+	background-color: #a8b1f6;
+	outline: 7px solid blue;
+	clear: both;
+	margin: 7px;
+}
+
+.placeholder {
+	height: 100px;
+	padding: 10px 10px 70px 10px;
+	border: 1px solid black;
+}
