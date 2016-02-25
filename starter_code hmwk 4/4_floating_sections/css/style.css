@@ -1,32 +1,30 @@
+html * {
+	box-sizing: border-box;
+	margin: 0;
+}
 header {
 	background-color: #ff8787;
-	outline: 7px solid red;
-	margin: 7px;
+	border: 7px solid red;
 }
 
 #main {
-	width: 61%;
+	width: 60%;
 	background-color: #fffba9;
-	outline: 7px solid yellow;
+	border: 7px solid yellow;
 	float: left;
-	margin: 7px;
-
 }
 
 aside {
-	width: 37%;
+	width: 40%;
 	background-color: #8ed89e;
-	outline: 7px solid green;
+	border: 7px solid green;
 	float: right;
-	margin: 7px;
-
 }
 
 footer {
 	background-color: #a8b1f6;
-	outline: 7px solid blue;
+	border: 7px solid blue;
 	clear: both;
-	margin: 7px;
 }
 
 .placeholder {
