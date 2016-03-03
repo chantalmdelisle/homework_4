@@ -5,7 +5,7 @@ body{
 h1{
 	font-weight: bold;
 }
-div{
+header, div, footer{
 	background-color: lightgray;
 	color: white;
 	border: 2px solid darkgray;
@@ -13,27 +13,27 @@ div{
 	padding: 20px;
 	text-align: center;
 }
-#Header{
+header{
 	margin-bottom: 20px;
 }
-#One{
+.One{
 	width: 20%;
 	height: 300px;
 	float: left;
 	margin-right: 25px;
 }
-#Two{
+.Two{
 	width: 46.5%;
 	height: 300px;
 	float: left;
 	margin-right: 25px;
 }
-#Three{
+.Three{
 	width: 20%;
 	height: 300px;
 	float: left;
 }
-#Footer{
+footer{
 	clear: both;
 	margin-top: 20px;
 }

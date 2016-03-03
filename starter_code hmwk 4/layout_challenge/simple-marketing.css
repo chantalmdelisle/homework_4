@@ -7,7 +7,7 @@ body{
 h1{
 	font-weight: bold;
 }
-div{
+header, div, footer{
 	background-color: lightgray;
 	color: white;
 	border: 2px solid darkgray;
@@ -16,22 +16,24 @@ div{
 	padding: 20px;
 	text-align: center;
 }
-#One, #Two{
+.One, .Two{
 	float: left;
 	height: 400px;
 	width: 45.5%;
 }
-#A {
+.A {
 	float: left;
 	clear: left;
 	height: 200px;
 	width: 28.75%;
+	margin-bottom: 10px;
 }
-#B, #C {
+.B, .C {
 	float: left;
 	height: 200px;
 	width: 28.75%;
+	margin-bottom: 10px;
 }
-#Footer{
+footer{
 	clear: both;
 }

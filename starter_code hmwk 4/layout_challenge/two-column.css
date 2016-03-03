@@ -2,24 +2,38 @@ body{
 	font-family: arial, sans-serif;
 	margin: 0;
 }
+
 h1{
 	font-weight: bold;
 	padding: 20px;
 }
-div{
+
+
+header, footer, .One, .Two{
 	background-color: lightgray;
 	color: white;
 	border: 2px solid darkgray;
-	margin: 10px;
 	height: 100px;
 	padding: 20px;
 	text-align: center;
 }
-#One, #Two{
+
+header{
+	margin-bottom: 10px;
+}
+.One{
 	float: left;
 	height: 300px;
-	width: 45.5%;
+	width: 46.5%
 }
-#Footer{
+
+.Two{
+	float: right;
+	height: 300px;
+	width: 46.5%
+}
+
+footer{
 	clear: both;
+	margin-top: 10px;
 }

@@ -1,83 +1,108 @@
 * {
-  box-sizing: border-box;
-}
-body{
+  	box-sizing: border-box;
 	margin: 0;
 	width: 100%;
 	font-family: arial, sans-serif;
 	font-weight: bold;
 	padding: 0;
 }
+.Title{
+	margin: 20px 0px;
+}
 header{
-	border: 2px solid darkgray;
-	background-color: lightgray;
-	color: white;
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
 	height: 200px;
 	width: 25%;
 	float: left;
+	margin-bottom: 20px;
 }
 nav{
-	width: 70%;
+	width: 75%;
 	float: right;
 }
 .B1, .B2, .B3, .B4, .B5{
-	border: 2px solid darkgray;
-	background-color: lightgray;
-	color: white;
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
 	height: 50px;
-	width: 15%;
+	width: 17%;
 	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
 }
-.B1, .B2, .B3, .B4{
-	margin-right: 20px;
-}
-aside {
-	border: 2px solid darkgray;
-	background-color: lightgray;
-	color: white;
+
+
+aside{
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
 	height: 600px;
 	width: 10%;
 	float: left;
-	clear: right;
+	clear: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
 }
-.top, .middle1, .middle2 {
-	border: 2px solid darkgray;
-	background-color: lightgray;
-	color: white;
-	height: 200px;
-}
+
+
 .top{
-	clear: right;
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
+	width: 88%;
+	height: 200px;
+	float: right;
+	margin-bottom: 20px;
 }
-.middle{
-	width: 75%;
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.middle1, .middle2 {
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
+	height: 380px;
+	margin-bottom: 20px;
 }
 .middle1{
-	width: 66%;
+	width: 70%;
 	float: left;
 }
 .middle2{
-	width: 33%;
+	width: 15%;
+	float: right;
+
+}
+
+
+
+.A, .B, .C, .D{
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
+	height: 200px;
+	width: 23.75%;
+	margin-bottom: 20px;
 	float: left;
 }
-section{
-	clear: both;
-}
-.A, .B, .C, .D{
-	border: 2px solid darkgray;
-	background-color: lightgray;
-	color: white;
-	height: 200px;
-	width: 31.2%;
-	margin-top: 0;
-	margin-bottom: 0px;
-}
 .A, .B, .C{
-	margin-right: 40px;
+	margin-right: 23px;
 }
+
+
+
 footer{	
-	border: 2px solid darkgray;
-	background-color: lightgray;
+		border: 2px solid darkgray;
+		background-color: lightgray;
+		color: white;
 	height: 200px;
-	color: white;
+	clear: both;
 }
